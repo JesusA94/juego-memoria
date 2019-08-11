@@ -1,0 +1,50 @@
+body
+{
+    background-image: url('../img/fondo.jpg');
+    background-size: 100%;
+}
+.panel
+{
+    position: relative;
+    float: right;
+    right: 350px;
+    text-align: center;
+    color: white;
+}
+
+#puntuacion{font-size: 37px;}
+
+.swal-modal 
+{
+    background-color: rgba(64, 128, 247, 0.938);
+    border: 2px solid white;   
+}
+
+.swal-text 
+{
+   
+    padding: 17px;
+    font-size: 30px;
+    display: block;
+    margin: 22px;
+    text-align: center;
+}
+
+img
+{
+    cursor: pointer;
+    height: 20vh;
+    width: 15vh;
+    margin: 8px ;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.3s;
+    transform: rotateY(0deg);
+    transition-timing-function: ease;
+    background-color: white;
+    border:1px solid white;
+}
+.container { width: 45%; margin: 2%;}
+.pareja{ opacity: 0.5;}
+.voltear { transform: rotateY(90deg) }
+.mostrar { transform: rotateY(0deg) }
